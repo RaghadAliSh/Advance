@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #DAEBE3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <TableView accessibleRole="TEXT_FIELD" editable="true" layoutX="39.0" layoutY="58.0" prefHeight="259.0" prefWidth="521.0" style="-fx-border-color: #ADD8E6;">
+            <columns>
+                <TableColumn prefWidth="87.199951171875" style="-fx-background-color: #36B9CC; -fx-border-color: #4E73DF;" text="Book Name" />
+                <TableColumn prefWidth="48.79998779296875" style="-fx-background-color: #36B9CC; -fx-border-color: #4E73DF;" text="ID" />
+                <TableColumn prefWidth="82.39996337890625" style="-fx-background-color: #36B9CC; -fx-border-color: #4E73DF;" text="Author " />
+                <TableColumn prefWidth="93.5999755859375" style="-fx-background-color: #36B9CC; -fx-border-color: #4E73DF;" text="Genre" />
+                <TableColumn prefWidth="114.4000244140625" style="-fx-background-color: #36B9CC; -fx-border-color: #4E73DF;" text="Publication Year" />
+                <TableColumn prefWidth="97.5999755859375" style="-fx-background-color: #36B9CC; -fx-border-color: #4E73DF;" text="Availability" />
+            </columns>
+            <cursor>
+                <Cursor fx:constant="TEXT" />
+            </cursor>
+        </TableView>
+        <Button layoutX="465.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #36B9CC;" text="Update" />
+        <Button layoutX="378.0" layoutY="335.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: #36B9CC;" text="AV" />
+        <Text layoutX="231.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information Page">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Text>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="406.0" layoutY="17.0" stroke="BLACK" strokeType="INSIDE" width="147.0" />
+        <Text layoutX="416.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Search" />
+    </children>
+</Pane>
